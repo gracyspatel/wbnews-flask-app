@@ -1,0 +1,31 @@
+{% extends 'layout.html'%}
+
+{% block body %}
+<div class="container-fluid">
+<div class="jumbotron mt-5">
+    <h1 class="display-3">Welcome,</h1>
+    <h2 class="display-6">To News Genre Classifier</h2>
+    <p class="lead">Enter your text and get the your acticle classified in a particular category.</p>
+    <hr class="my-4">
+
+    <div class="mt-5 container-fluid d-flex flex-wrap justify-content-between align-items-center" style="min-height: 50vh;">
+    <div class="mb-3 flex-grow-1 mb-5" style="width: 38rem;">
+        <div>
+          <h1 class="display-1"><b>The <span class="text-primary"> News </span> <br>Genre Classifier</b></h1>
+          <p class="text-justify">
+            News genre classifier is a web application that classifies news articles based on the particular genre using Natural Language Processing.It is trained with Naive Bayes Classifier and Support Vector Machine Algorithm.
+          </p>
+            
+        <a href="/classifier" class="mt-5 btn btn-primary ps-5 pe-5">Get Started</a>
+        </div>
+      </div>
+      <div class="mb-3 flex-grow-1 mb-5" style="width: 38rem;">
+        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+        <div class="d-flex align-items-center justify-content-center">
+                <img width="400px" src="http://www.simplybiomass.co.uk/wp-content/uploads/2014/01/Marketplace-Lending-News.jpg" alt="image"/>
+
+        </div>
+      </div>
+  </div>
+</div>
+{% endblock %}
