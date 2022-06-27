@@ -7,7 +7,6 @@ app = Flask(__name__)
 
 Articles = Articles()
 
-# main
 @app.route('/')
 def index():
     return render_template('home.html')
